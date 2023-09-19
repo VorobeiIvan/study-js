@@ -8,13 +8,10 @@
 // // const applePrice = 34;
 // // Total purchase, price ...
 
-
-
 // // const cherry = '🍒';
 // // const cherryQuantity = 3;
 // // const cherryPrice = 72;
 // // ... total cost ...
-
 
 // // Task - 2
 // // Напиши скрипт, який переведе значення totalMinutes (кількість хвилин) в рядок у форматі годин та хвилин HH:MM.
@@ -30,11 +27,9 @@
 // // const name = 'Harry'
 // // const message = Hello my name is ...
 
-
 // // const delivery = 25;
 // // const price = 190;
 // // Total purchase, price ...;
-
 
 // // Task - 4
 // // Виконай рефакторинг коду так, щоб у змінну value присвоювалося значення змінної incomingValue, якщо воно не рівне undefined або null. В іншому випадку має присвоюватися значення defaultValue. Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0. Використовуй оператор ?? (nullish coalescing operator).
@@ -42,10 +37,7 @@
 // // const incomingValue = null;
 // // const defaultValue = 10;
 
-
 // // const message = prompt('Enter your name')
-
-
 
 // // **************************************** Практика ****************************** //
 
@@ -63,7 +55,6 @@
 // // if () {;}
 
 // // switch () {;}
-
 
 // // Task - 2
 // // Потрібно створити застосунок для автоматизації перевірки правильних відповідей на дитячі загадки
@@ -90,16 +81,14 @@
 
 // // Task - 4
 // // Порахуй скільки голосних літер у реченні.
-  
+
 // // console.log(countVowel("HELLO WORLD")); // 3
 // // console.log(countVowel("Junior Web Developer")) // 8
-
 
 // // Task-1
 // // Напиши скрипт який буде перебирати масив та видаляти з нього (мутувати) всі елементи що не є типом даних Number.
 
 // // const arr = [true, 3, "Hello", null, 42, false];
-
 
 // // Task-2
 // // Потрібно створити функцію яка буде приймати 1 параметр
@@ -116,7 +105,6 @@
 // // const users = [ "Artem", "Anna","Larisa","Maksim","Svetlana","David","Roman","Olga"];
 // // const men = ["Artem", "Maksim", "David", "Roman"];
 
-
 // // Task-4 - Масиви та рядки
 // // Напиши скрипт, який «розгортає» рядок (зворотний порядок літер) і виводить його в консоль.
 
@@ -128,7 +116,6 @@
 // // const numbers = [1, 2, 3, 1, 5, 6, 1, 1, 9];
 // // const numbers = [11, 2, 3, 1, 55, 6, 1, 71, 9];
 
-
 // // Task-6
 // // Напиши функцію яка на основі масиву користувачів що поставили лайк формує та повертає рядок.
 // // Функцію має повернути текст, як вказано у прикладах:
@@ -138,7 +125,6 @@
 // // ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
 // // ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 // // ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
-
 
 // // Практика
 
@@ -160,7 +146,6 @@
 
 // // const data = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-
 // // Example 3 - Площа прямокутника
 // // Напиши функцію getRectArea(dimensions) для обчислення площі прямокутника зі сторонами, значення яких будуть передані до параметра dimensions у вигляді рядка. Значення гарантовано розділені пробілом.
 
@@ -173,7 +158,6 @@
 
 // // const courses = ["HTML", "CSS", "JavaScript", "React", "PostgreSQL"];
 
-
 // // function removeCourse(name) {
 // // idx indexOf
 // // includes
@@ -181,7 +165,6 @@
 // // removeCourse("React");
 // // console.log(courses); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL', 'Express']
 // // console.log(removeCourse("Vue")); // 'Курс із таким ім'ям не знайдено'
-
 
 // // ****************Практика**************** \\
 // // Task - 1
@@ -193,7 +176,6 @@
 
 // // console.log(createBasket('pizza', 3, 120));
 // // console.log(createBasket('apple', 13, 1200));
-
 
 // // Task - 2
 // // Створи функцію для ведення статистики комп'ютерного клубу. Функція приймає 1 параметр це об'єкт користувачів де ключ це ім'я користувача, а значення це час оренди у хвилинах.
@@ -271,7 +253,6 @@
 // // console.log(hogvarts.getTotalPoints("griffindor"));
 // // console.log(hogvarts.getTotalPoints("slizerin"));
 // // console.log(hogvarts.getTotalPoints("slitherin"));
-
 
 // // _______________________________________________________________________________________________________________
 // // 1.
@@ -409,7 +390,7 @@
 // function sayHi () {
 //     console.log("Hello, this is my first function!")
 //   }
-  
+
 //   sayHi ();
 //   _______________________________________________________________________________________________________________
 
@@ -427,7 +408,7 @@
 //     console.log(`Addition result equals ${a+b+c}`);
 //     // Change code above this line
 //   }
-  
+
 //   add(15, 27, 10);
 //   add(10, 20, 30);
 //   add(5, 10, 15);
@@ -443,14 +424,14 @@
 // Виклик функції з випадковими, але валідними аргументами, повертає правильне значення
 // function add(a, b, c) {
 //     // Change code below this line
-  
+
 //   return (a + b + c);
-  
+
 //     // Change code above this line
 //   }
-  
+
 //   add(2, 5, 8); // 15
-  
+
 //   console.log(add(15, 27, 10));
 //   console.log(add(10, 20, 30));
 //   console.log(add(5, 10, 15));
@@ -477,7 +458,7 @@
 //     // Change code above this line
 //     return message;
 //   };
-  
+
 //   const name = "Radar";
 //   const price = 6150;
 //   _______________________________________________________________________________________________________________
@@ -498,7 +479,7 @@
 // function calculateTotalPrice (orderedQuantity, pricePerItem) {
 //     // Change code below this line
 //     const totalPrice = (orderedQuantity*pricePerItem);
-  
+
 //     // Change code above this line
 //     return totalPrice;
 //   };
@@ -520,15 +501,15 @@
 //     const totalPrice = orderedQuantity * pricePerDroid + deliveryFee;
 //     return `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`;
 //   }
-  
-//   const message1 = makeOrderMessage(2, 100, 50); 
+
+//   const message1 = makeOrderMessage(2, 100, 50);
 //   const message2 = makeOrderMessage(4, 300, 100);
 //   const message3 = makeOrderMessage(10, 70, 200);
-  
+
 //   console.log(message1);
 //   console.log(message2);
 //   console.log(message3);
-  
+
 //   _______________________________________________________________________________________________________________
 //   Функція isAdult оголошує один параметр age (вік), значення якого буде задаватися під час її виклику. Присвой змінній passed вираз перевірки віку користувача на повноліття. Людина вважається повнолітньою у віці 18 років і старше.
 
@@ -542,7 +523,7 @@
 // function isAdult(age) {
 //     // Change code below this line
 //     const passed = age>=18;
-  
+
 //     // Change code above this line
 //     return passed;
 //   }
@@ -561,7 +542,7 @@
 //     const SAVED_PASSWORD = 'jqueryismyjam';
 //     // Change code below this line
 //     const isMatch = (password === SAVED_PASSWORD );
-  
+
 //     // Change code above this line
 //     return isMatch;
 //   }
@@ -581,13 +562,13 @@
 
 // function checkAge(age) {
 //     let message;
-  
+
 //     if (age>=18) { // Change this line
 //       message = 'You are an adult';
 //     } else {
 //       message = 'You are a minor';
 //     }
-  
+
 //     return message;
 //   }
 //   _______________________________________________________________________________________________________________
@@ -606,17 +587,16 @@
 // Виклик checkStorage(200, 150) повертає "Order is processed, our manager will contact you."
 // Виклик checkStorage(150, 180) повертає "Not enough goods in stock!"
 
-
 // function checkStorage(available, ordered) {
 //     let message;
 //     // Change code below this line
 //   if(available>ordered) {
 //     message = "Order is processed, our manager will contact you.";
-  
+
 //   }
 //     else {
 //       message = "Not enough goods in stock!"
-  
+
 //     }
 //     // Change code above this line
 //     return message;
@@ -683,12 +663,12 @@
 //       message=`You ordered ${orderedQuantity} droids, you have ${customerCredits-totalPrice} credits left`;
 //     }
 //     // Change code below this line
-//   else 
+//   else
 //       message="Insufficient funds!";
 //     // Change code above this line
 //     return message;
 //   }
-  
+
 //   _______________________________________________________________________________________________________________
 
 //   Функція checkPassword(password) отримує пароль користувача в параметр password, перевіряє його на збіг з паролем адміністратора у змінній ADMIN_PASSWORD і повертає повідомлення про результат порівняння, яке зберігається у змінній message.
@@ -705,7 +685,7 @@
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = 'jqueryismyjam';
 //     let message;
-  
+
 //     if (password===null) { // Change this line
 //       message =  'Canceled by user!';
 //     } else if (password===ADMIN_PASSWORD) { // Change this line
@@ -713,7 +693,7 @@
 //     } else {
 //       message = 'Access denied, wrong password!';
 //     }
-  
+
 //     return message;
 //   }
 
@@ -747,13 +727,13 @@
 //     }
 //     else {
 //       message="The order is accepted, our manager will contact you"
-      
+
 //     }
-  
+
 //     // Change code above this line
 //     return message;
 //   }
-  
+
 //   console.log(checkStorage(100, 50));
 //   console.log(checkStorage(100, 130));
 //   console.log(checkStorage(70, 0));
@@ -778,7 +758,7 @@
 
 // function isNumberInRange(start, end, number) {
 //     const isInRange = number>=start&&number<=end; // Change this line
-  
+
 //     return isInRange;
 //   }
 //   console.log(isNumberInRange(10, 30, 17));
@@ -801,9 +781,9 @@
 
 // function checkIfCanAccessContent(subType) {
 //     const canAccessContent = subType === "pro" || subType === "vip";
-    
+
 //     // Change this line
-  
+
 //     return canAccessContent;
 //   }
 //   console.log(checkIfCanAccessContent("pro"));
@@ -832,7 +812,7 @@
 // function isNumberNotInRange(start, end, number) {
 //     const isInRange = number >= start && number <= end;
 //     const isNotInRange = !isInRange ; // Change this line
-  
+
 //     return isNotInRange;
 //   }
 
@@ -863,7 +843,7 @@
 //     const SILVER_DISCOUNT = 0.05;
 //     const GOLD_DISCOUNT = 0.1;
 //     let discount;
-  
+
 //     if (totalSpent >= 50000) {
 //       discount = GOLD_DISCOUNT;
 //     } else if (totalSpent >= 20000) {
@@ -873,17 +853,17 @@
 //     } else {
 //       discount = BASE_DISCOUNT;
 //     }
-  
+
 //     return discount;
 //   }
-  
-//   console.log(getDiscount(137000)); 
-//   console.log(getDiscount(46900));  
-//   console.log(getDiscount(8250));   
-//   console.log(getDiscount(1300));   
-//   console.log(getDiscount(5000));   
-//   console.log(getDiscount(20000));  
-//   console.log(getDiscount(50000));  
+
+//   console.log(getDiscount(137000));
+//   console.log(getDiscount(46900));
+//   console.log(getDiscount(8250));
+//   console.log(getDiscount(1300));
+//   console.log(getDiscount(5000));
+//   console.log(getDiscount(20000));
+//   console.log(getDiscount(50000));
 
 //   _______________________________________________________________________________________________________________
 
@@ -900,14 +880,13 @@
 // function checkStorage(available, ordered) {
 //     let message;
 //     // Change code below this line
-  
+
 //     message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
-  
-  
+
 //     // Change code above this line
 //     return message;
 //   }
-  
+
 //   console.log (checkStorage(100, 50));
 //   console.log (checkStorage(100, 130));
 //   console.log (checkStorage(200, 20));
@@ -926,7 +905,6 @@
 // Виклик checkPassword("jqueryismyjam") повертає "Access is allowed"
 // Виклик checkPassword("angul4r1sl1f3") повертає "Access denied, wrong password!"
 // Виклик checkPassword("r3actsux") повертає "Access denied, wrong password!"
-
 
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = "jqueryismyjam";
@@ -964,21 +942,21 @@
 // function getSubscriptionPrice(type) {
 //     let price;
 //     // Change code below this line
-  
+
 //    switch (type) { // Change this line
 //       case "starter": // Change this line
 //         price = 0; // Change this line
 //         break;
-  
+
 //       case "professional":// Change this line
 //         price = 20; // Change this line
 //         break;
-  
+
 //      case "organization": // Change this line
 //         price = 50; // Change this line
 //         break;
 //     }
-  
+
 //     // Change code above this line
 //     return price;
 //   }
@@ -1006,25 +984,25 @@
 //     const ADMIN_PASSWORD = "jqueryismyjam";
 //     let message;
 //     // Change code below this line
-  
+
 //     switch(password) {
-//       case null: 
+//       case null:
 //       message = "Canceled by user!";
 //       break;
-      
-//       case ADMIN_PASSWORD: 
+
+//       case ADMIN_PASSWORD:
 //       message = "Welcome!";
 //       break;
-        
+
 //       default:
 //       message = "Access denied, wrong password!";
-   
+
 //     }
-  
+
 //     // Change code above this line
 //     return message;
 //   }
-  
+
 //   console.log(checkPassword("mangohackzor"));
 //   console.log(checkPassword(null));
 //   console.log(checkPassword("polyhax"));
@@ -1062,29 +1040,25 @@
 //       price = 100;
 //      console.log(message = `Shipping to ${country} will cost ${price} credits`);
 //       break;
-//     case "Chile":   
+//     case "Chile":
 //       price = 250;
 //      console.log(message = `Shipping to ${country} will cost ${price} credits`);
 //       break;
-//     case "Australia":  
+//     case "Australia":
 //       price = 170;
 //      console.log(message = `Shipping to ${country} will cost ${price} credits`);
 //       break;
-//     case "Jamaica":  
+//     case "Jamaica":
 //       price = 120;
 //      console.log(message = `Shipping to ${country} will cost ${price} credits`);
 //       break;
 //    default:
 //       message = "Sorry, there is no delivery to your country";
-      
-  
-  
-      
+
 //   }
 //     // Change code above this line
 //     return message;
 //   }
-
 
 // _______________________________________________________________________________________________________________
 
@@ -1098,15 +1072,14 @@
 
 // function getNameLength(name) {
 //     const message = `Name ${name} is ${name.length} characters long`; // Change this line
-  
+
 //     return message;
-  
-  
+
 //   console.logo(getNameLength("Poly"));
 //   console.logo(getNameLength("Harambe"));
 //   console.logo(getNameLength("Billy"));
 //   console.logo(getNameLength("Joe"));
-  
+
 //   }
 
 //   _______________________________________________________________________________________________________________
@@ -1154,19 +1127,17 @@
 // Виклик функції getSubstring("Hello world", 0) повертає ""
 
 // function getSubstring(string, length) {
- 
+
 //     const substring = string.slice(0,length); // Change this line
-    
-  
-  
+
 //     return substring;
-  
+
 //   getSubstring("Hello world", 3);
 //   getSubstring("Hello world", 6);
 //   getSubstring("Hello world", 8);
 //   getSubstring("Hello world", 11);
 //   getSubstring("Hello world", 0);
-  
+
 //   }
 //   _______________________________________________________________________________________________________________
 
@@ -1188,18 +1159,18 @@
 //   let result;
 //   // Change code below this line
 //   if (message.length <= maxLength) {
-//     result = message; 
+//     result = message;
 //   } else {
-//     result = message.slice(0, maxLength) + "..."; 
+//     result = message.slice(0, maxLength) + "...";
 //   }
 //   // Change code above this line
 //   return result;
 // }
-// console.log(formatMessage("Curabitur ligula sapien", 16)); 
-// console.log(formatMessage("Curabitur ligula sapien", 23)); 
+// console.log(formatMessage("Curabitur ligula sapien", 16));
+// console.log(formatMessage("Curabitur ligula sapien", 23));
 // console.log(formatMessage("Vestibulum facilisis purus nec", 20));
-// console.log(formatMessage("Vestibulum facilisis purus nec", 30)); 
-// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); 
+// console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
 // console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
 // _______________________________________________________________________________________________________________
 
@@ -1212,7 +1183,7 @@
 
 // function normalizeInput(input) {
 //     const normalizedInput = input.toLowerCase(); // Change this line
-  
+
 //     return normalizedInput;
 //   }
 
@@ -1238,7 +1209,7 @@
 //     return result;
 //   }
 //   _______________________________________________________________________________________________________________
-  
+
 //   Функція checkForSpam(message) приймає рядок (параметр message), перевіряє його на вміст заборонених слів spam і sale, і повертає результат перевірки. Слова в рядку параметра message можуть бути у довільному регістрі, наприклад SPAM або sAlE.
 
 // Якщо знайшли заборонене слово (spam або sale) то функція повертає буль true.
@@ -1252,15 +1223,14 @@
 // Виклик функції checkForSpam("Get rid of sPaM emails. Our book in on sale!") повертає true
 // Виклик функції checkForSpam("[SPAM] How to earn fast money?") повертає true
 
-
 // function checkForSpam(message) {
 //     let result;
 //     const lowerCaseMessage = message.toLowerCase();
 //     // Change code below this line
-  
+
 //     result =
 //       lowerCaseMessage.includes("spam") || lowerCaseMessage.includes("sale");
-  
+
 //     // Change code above this line
 //     return result;
 //   }
@@ -1289,7 +1259,7 @@
 //     if (age>=18) { // Change this line
 //       return "You are an adult";
 //     }
-  
+
 //     return "You are a minor";
 //   }
 
@@ -1310,11 +1280,10 @@
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = "jqueryismyjam";
 //     // Change code below this line
-  
+
 //     if (password === ADMIN_PASSWORD) {
 //       return "Welcome!";}
-  
-  
+
 //     return "Access denied, wrong password!";
 //     // Change code above this line
 //   }
@@ -1337,7 +1306,7 @@
 //     // Change code below this line
 //     if (ordered === 0) {
 //       return "Your order is empty!";
-//     } 
+//     }
 //     if (ordered > available) {
 //       return "Your order is too large, not enough goods in stock!";
 //     }
@@ -1385,7 +1354,6 @@
 
 // const fruits = ["apple", "plum", "pear", "orange"];
 
-
 // // Write your code under this line
 
 // fruits[1] = "peach";
@@ -1429,14 +1397,13 @@
 // Виклик getExtremeElements(["Earth", "Mars", "Venus"]) повертає ["Earth", "Venus"]
 // Виклик getExtremeElements(["apple", "peach", "pear", "banana"]) повертає ["apple", "banana"]
 
-
 // function getExtremeElements(array) {
 //     // Change code below this line
-  
+
 //     const firstElement = array[0];
 //     const lastElement = array[array.length - 1];
 //     const result = [firstElement, lastElement];
-  
+
 //     return result;
 //     // Change code above this line
 //   }
@@ -1474,17 +1441,16 @@
 // Виклик calculateEngravingPrice("Web-development is creative work", 40) повертає 160
 // Виклик calculateEngravingPrice("Web-development is creative work", 20) повертає 80
 
-
 // function calculateEngravingPrice(message, pricePerWord) {
 //     // Change code below this line
 //     const array = message.split(" ");
 //     const total = array.length * pricePerWord;
-  
+
 //     // Change code above this line
 //     return total;
 //   }
 //   _______________________________________________________________________________________________________________
-  
+
 //   Доповни код функції makeStringFromArray(array, delimiter) таким чином, щоб вона повертала у змінній string результат з'єднання елементів масиву array з роздільником delimiter - рядок.
 
 // Оголошена функція makeStringFromArray(array, delimiter)
@@ -1495,9 +1461,9 @@
 // function makeStringFromArray(array, delimiter) {
 //     let string;
 //     // Change code below this line
-  
+
 //   string=array.join(delimiter);
-  
+
 //     // Change code above this line
 //     return string;
 //   }
@@ -1526,15 +1492,14 @@
 //     // Change code below this line
 //     const lowerCaseTitle = title.toLowerCase();
 //     const slug = lowerCaseTitle.split(" ").join("-");
-  
+
 //     return slug;
-  
-  
+
 //     // Change code above this line
 //   }
 
 //   _______________________________________________________________________________________________________________
-  
+
 //   Доповни код таким чином, щоб змінні містили часткові копії вихідного масиву fruits.
 
 // firstTwoEls - масив із перших двох елементів
@@ -1589,13 +1554,13 @@
 
 // function makeArray(firstArray, secondArray, maxLength) {
 //     // Change code below this line
-  
+
 //     const allArray = firstArray.concat(secondArray);
-  
+
 //     const newLengthAllArray = allArray.length - maxLength;
 //     const sliceAllArray = allArray.slice(0, maxLength);
 //     return sliceAllArray;
-  
+
 //     // Change code above this line
 //   }
 //   console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
@@ -1639,13 +1604,13 @@
 
 // function calculateTotal(number) {
 //     let total = 0;
-//     for (let i = 1; i <= number; i += 1) { 
+//     for (let i = 1; i <= number; i += 1) {
 //       total += i;
 //     }
-  
+
 //     return total;
 //   }
-  
+
 //   console.log(calculateTotal(1));  // Повертає 1
 //   console.log(calculateTotal(3));  // Повертає 6
 //   console.log(calculateTotal(7));  // Повертає 28
@@ -1706,18 +1671,18 @@
 // function findLongestWord(string) {
 //     const array = string.split(" ");
 //     let maxWord = "";
-  
+
 //     for (let i = 0; i < array.length; i++) {
 //       let word = array[i];
-  
+
 //       if (word.length > maxWord.length) {
 //         maxWord = word;
 //       }
 //     }
-  
+
 //     return maxWord;
 //   }
-  
+
 //   console.log(findLongestWord("The quick brown fox jumped over the lazy dog")); // Повертає "jumped"
 //   console.log(findLongestWord("Google do a roll")); // Повертає "Google"
 //   console.log(findLongestWord("May the force be with you")); // Повертає "force"
@@ -1734,16 +1699,16 @@
 
 // function createArrayOfNumbers(min, max) {
 //     const numbers = [];
-  
+
 //     for(i = min; i <= max; i ++){
 //     numbers.push(i)}
-  
+
 //     return numbers;
 //   }
 //   console.log(createArrayOfNumbers(1, 3));// повертає [1, 2, 3]);
 //   console.log(createArrayOfNumbers(14, 17)); //повертає [14, 15, 16, 17]);
 //   console.log(createArrayOfNumbers(29, 34));// повертає [29, 30, 31, 32, 33, 34]);
-  
+
 // _______________________________________________________________________________________________________________
 // Функція checkFruit(fruit) приймає рядок з назвою фрукта (параметр fruit), і перевіряє, чи присутній такий фрукт в масиві fruits.
 
@@ -1762,12 +1727,9 @@
 
 // function checkFruit(fruit) {
 //     const fruits = ["apple", "plum", "pear", "orange"];
-  
-    
-    
+
 //     return fruits.includes(fruit)// Change this line
 //   }
-  
 
 // _______________________________________________________________________________________________________________
 
@@ -1814,15 +1776,15 @@
 // function calculateTotalPrice(order) {
 //     let total = 0;
 //     // Change code below this line
-  
+
 //     for (const number of order) {
 //       total += number;
 //     }
-  
+
 //     // Change code above this line
 //     return total;
 //   }
-  
+
 //    console.log(calculateTotalPrice([12, 85, 37, 4]));//повертає 138
 //     console.log(calculateTotalPrice([164, 48, 291]));// повертає 503
 //     console.log(calculateTotalPrice([412, 371, 94, 63, 176]));// повертає 1116
@@ -1844,19 +1806,19 @@
 // function filterArray(numbers, value) {
 //     // Change code below this line
 //     const filteredNumbers = [];
-  
+
 //     for (const newArray of numbers) {
 //       const number = newArray;
-  
+
 //       if (number > value) {
 //         filteredNumbers.push(number);
 //       }
 //     }
-  
+
 //     return filteredNumbers;
 //     // Change code above this line
 //   }
-  
+
 // _______________________________________________________________________________________________________________
 
 // Доповни вираз остачі від ділення таким чином, щоб код проходив тести.
@@ -1890,19 +1852,18 @@
 // Виклик функції getEvenNumbers(7, 7) повертає []
 // Виклик функції getEvenNumbers() з випадковими start і end повертає правильний масив
 
-
 // function getEvenNumbers(start, end) {
- 
+
 //     const numbers = [];
 //      if (start % 2 !== 0) {start++;}
 //       if (end % 2 !== 0) { end--; }
 //       for (let i = start; i <= end; i += 2) {
 //       numbers.push(i);
 //       }
-    
+
 //       return numbers;
 //     }
-    
+
 //     console.log(getEvenNumbers(2, 5));// повертає [2, 4]
 //     console.log(getEvenNumbers(3, 11));// повертає [4, 6, 8, 10]
 //     console.log(getEvenNumbers(6, 12));// повертає [6, 8, 10, 12]
@@ -1922,12 +1883,10 @@
 // const end = 27;
 // let number;
 
-
-
 // for (let i = start; i < end; i += 1) {
 //   if (i % 5 === 0) {
 //     number = i;
-//     break 
+//     break
 //   }
 // }
 
@@ -1949,18 +1908,16 @@
 // function findNumber(start, end, divisor) {
 //     // Change code below this line
 //     let number;
-  
+
 //     for (let i = start; i < end; i += 1) {
 //       if (i % divisor === 0) {
 //         number = i;
 //         return number;
 //       }
 //     }
-  
-   
+
 //     // Change code above this line
 //   }
-  
 
 // _______________________________________________________________________________________________________________
 
@@ -1986,7 +1943,7 @@
 //       }
 //     }
 //     return false;
-  
+
 //   }
 //   console.log(includes([1, 2, 3, 4, 5], 3));// повертає true
 //   console.log(includes([1, 2, 3, 4, 5], 17));// повертає false
@@ -2021,11 +1978,10 @@
 //     imgUrl:"https://via.placeholder.com/640x480",
 //     descr:"Spacious apartment in the city center",
 //     rating:4,
-//     price:2153, 
+//     price:2153,
 //     tags:["premium", "promoted", "top"]
 //   } ;
 
-  
 // _______________________________________________________________________________________________________________
 
 // Доповни об'єкт квартири властивістю owner, значенням якого буде об'єкт з інформацією про власника. Додай йому наступні властивості:
@@ -2057,7 +2013,6 @@
 //     email: "henry.carter@aptmail.com"
 //     }
 //   };
-  
 
 // _______________________________________________________________________________________________________________
 // Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment.
@@ -2085,18 +2040,15 @@
 //     price: 2153,
 //     tags: ["premium", "promoted", "top"],
 //   };
-  
-  
+
 //   // Change code below this line
 //   const aptRating = apartment.rating;
 //   const aptDescr = apartment.descr;
 //   const aptPrice = apartment.price;
 //   const aptTags = apartment.tags;
 //   // Change code above this line
-  
 
 // _______________________________________________________________________________________________________________
-
 
 // Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment.
 
@@ -2133,7 +2085,7 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
+
 //   // Change code below this line
 //   const ownerName = apartment.owner.name;
 //   const ownerPhone = apartment.owner.phone;
@@ -2142,7 +2094,7 @@
 //   const firstTag = apartment.tags[0];
 //   const lastTag = apartment.tags[2];
 //   // Change code above this line
-  
+
 // _______________________________________________________________________________________________________________
 
 // Доповни код, присвоївши оголошеним змінним вирази звернення до відповідних властивостей об'єкта apartment, використовуючи синтаксис «квадратних дужок».
@@ -2169,14 +2121,14 @@
 //     price: 2153,
 //     tags: ["premium", "promoted", "top"],
 //   };
-  
+
 //   // Change code below this line
 //   const aptRating = apartment['rating'];
 //   const aptDescr = apartment['descr'];
 //   const aptPrice = apartment['price'];
 //   const aptTags = apartment['tags'];
 //   // Change code above this line
-  
+
 // _______________________________________________________________________________________________________________
 
 // Доповни код, оновивши значення властивостей об'єкта apartment:
@@ -2204,16 +2156,14 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
+
 //   apartment.price=5000;
 //   apartment.rating=4.7;
 //   apartment.owner.name="Henry Sibola";
 //   apartment.tags.push("trusted");
-  
-  
-  
+
 //   // Change code below this line
-  
+
 // _______________________________________________________________________________________________________________
 // Додай об'єкту apartment кілька нових властивостей:
 
@@ -2242,17 +2192,14 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
+
 //   apartment.area = 60;
 //   apartment.rooms=3;
 //   apartment.location={};
 //   apartment.location.country="Jamaica";
 //   apartment.location.city="Kingston";
-  
-  
-  
+
 //   // Change code below this line
-  
 
 // _______________________________________________________________________________________________________________
 
@@ -2298,7 +2245,6 @@
 //   // Change code above this line
 // };
 
-
 // _______________________________________________________________________________________________________________
 
 // Перебери об'єкт apartment, використовуючи цикл for...in, і запиши в масив keys всі його ключі, а в масив values всі значення його властивостей.
@@ -2321,7 +2267,6 @@
 //     console.log(keys.push(key));
 //    console.log(values.push(apartment[key]));
 //   }
-  
 
 // _______________________________________________________________________________________________________________
 // Виконай рефакторинг рішення попереднього завдання, додавши в цикл for...in перевірку на власну властивість.
@@ -2355,7 +2300,6 @@
 //   // Change code above this line
 // }
 
-
 // _______________________________________________________________________________________________________________
 
 // Напиши функцію countProps(object), яка рахує і повертає кількість власних властивостей об'єкта в параметрі object. Використовуй змінну propCount для зберігання кількості властивостей об'єкта.
@@ -2377,7 +2321,7 @@
 //     // Change code above this line
 //     return propCount;
 //   }
-  
+
 // _______________________________________________________________________________________________________________
 
 // Перебери об'єкт apartment, використовуючи метод Object.keys() і цикл for...of. Запиши у змінну keys масив ключів власних властивостей об'єкта apartment, і додай в масив values всі значення його властивостей.
@@ -2400,10 +2344,10 @@
 //   // Change code below this line
 //     const keys = Object.keys(apartment);
 //   for (const key of keys){
-  
+
 //     values.push(apartment[key]);
 //   }
-  
+
 // _______________________________________________________________________________________________________________
 
 // Виконай рефакторинг функції countProps(object), використовуючи метод Object.keys() і, можливо, але не обов'язково, цикл for...of.
@@ -2424,11 +2368,10 @@
 //         propCount += 1;
 //       }
 //     }
-  
+
 //     return propCount;
 //     // Change code above this line
 //   }
-  
 
 // _______________________________________________________________________________________________________________
 
@@ -2451,7 +2394,6 @@
 //   // Change code below this line
 //   const keys = Object.keys(apartment);
 //   const values = Object.values(apartment);
-  
 
 // // _______________________________________________________________________________________________________________
 // Напиши функцію countTotalSalary(salaries), яка приймає об'єкт зарплат, де ім'я властивості - це ім'я співробітника, а значення властивості - це зарплата. Функція повинна розрахувати загальну суму зарплат співробітників і повернути її. Використовуй змінну totalSalary для зберігання загальної суми зарплати.
@@ -2467,20 +2409,22 @@
 //     // Change code below this line
 //   let values = Object.values(salaries);
 //     for (let i=0; i<values.length; i+=1){
-//       totalSalary += values[i] 
-    
+//       totalSalary += values[i]
+
 //     }
 //      return totalSalary;
 //     // Change code above this line
-    
+
 //   }
-  
+
 //   console.log(countTotalSalary({ mango: 100, poly: 150, alfred: 80 }));
 //   console.log(countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 }));
-  
+
 // _______________________________________________________________________________________________________________
 
-// Перебери масив об'єктів colors, використовуючи цикл for...of. Додай у масив hexColors значення властивостей hex, а в масив rgbColors - значення властивостей rgb з усіх об'єктів масиву colors.
+// Перебери масив об'єктів colors, використовуючи цикл for...of.
+// Додай у масив hexColors значення властивостей hex, а в масив rgbColors - значення
+// властивостей rgb з усіх об'єктів масиву colors.
 
 // Оголошена змінна colors
 // Значення змінної colors - це масив
@@ -2489,36 +2433,156 @@
 // Оголошена змінна rgbColors
 // Значення змінної rgbColors - це масив ["244,67,54", "33,150,243", "76,175,80", "255,235,59"]
 
-const colors = [
-    { hex: "#f44336", rgb: "244,67,54" },
-    { hex: "#2196f3", rgb: "33,150,243" },
-    { hex: "#4caf50", rgb: "76,175,80" },
-    { hex: "#ffeb3b", rgb: "255,235,59" },
-  ];
-  
-  const hexColors = [];
-  const rgbColors = [];
-  // Change code below this line
-  
+// const colors = [
+//   {
+//     hex: "#f44336",
+//     rgb: "244,67,54",
+//   },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
 
-// _______________________________________________________________________________________________________________
+// const hexColors = [];
+// const rgbColors = [];
 
+// for (let color of colors) {
+//   console.log(color);
+//   for (let key in color)
+//     if (key === "hex") {
+//       hexColors.push(color[key]);
+//     } else {
+//       rgbColors.push(color[key]);
+//     }
+// }
 
+// console.log(hexColors);
+// console.log(rgbColors);
 
-// _______________________________________________________________________________________________________________
+// Change code below this line
 
+// варіант 2
 
-// _______________________________________________________________________________________________________________
+// const colors = [
+//   { hex: "#f44336", rgb: "244,67,54" },
+//   { hex: "#2196f3", rgb: "33,150,243" },
+//   { hex: "#4caf50", rgb: "76,175,80" },
+//   { hex: "#ffeb3b", rgb: "255,235,59" },
+// ];
 
+// const hexColors = [];
+// const rgbColors = [];
 
-// _______________________________________________________________________________________________________________
+// for (let color of colors) {
+//   hexColors.push(color.hex);
+//   rgbColors.push(color.rgb);
+// }
 
+// console.log(hexColors);
+// console.log(rgbColors);
 
+// Напиши функцію getProductPrice(productName), яка приймає один
+// параметр productName - назва продукту.
+// Функція шукає об'єкт продукту з таким ім'ям(властивість name)
+// в масиві products і повертає його ціну(властивість price).
+// Якщо продукт з такою назвою не знайдений, функція повинна повертати null.
 
-// _______________________________________________________________________________________________________________
+// Оголошена функція getProductPrice(productName).
+// Виклик getProductPrice("Radar") повертає 1300.
+// Виклик getProductPrice("Grip") повертає 1200.
+// Виклик getProductPrice("Scanner") повертає 2700.
+// Виклик getProductPrice("Droid") повертає 400.
+// Виклик getProductPrice("Engine") повертає null.
 
+// const products = [
+//   {
+//     name: "Radar",
+//     price: 1300,
+//     quantity: 4,
+//   },
+//   {
+//     name: "Scanner",
+//     price: 2700,
+//     quantity: 3,
+//   },
+//   {
+//     name: "Droid",
+//     price: 400,
+//     quantity: 7,
+//   },
+//   {
+//     name: "Grip",
+//     price: 1200,
+//     quantity: 9,
+//   },
+// ];
+// function getProductPrice(productName) {
+//   let price = null;
+//   for (let product of products) {
+//     if (product.name === productName) {
+//       price = product.price;
+//       break;
+//     }
+//   }
 
-// _______________________________________________________________________________________________________________
+//   return price;
+// }
 
+// console.log(getProductPrice("Radar")); // повертає 1300.
+// console.log(getProductPrice("Grip")); //  повертає 1200.
+// console.log(getProductPrice("Scanner")); //  повертає 2700.
+// console.log(getProductPrice("Droid")); //  повертає 400.
+// console.log(getProductPrice("Engine")); //  повертає null.
 
-// _______________________________________________________________________________________________________________
+// Copy code
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function getAllPropValues(propName) {
+//   // Створюємо масив для збереження значень властивості
+//   let propValues = [];
+
+//   for (let product of products) {
+//     // Перевіряємо, чи існує властивість з таким ім'ям в об'єкті
+//     if (product.hasOwnProperty(propName)) {
+//       // Додаємо значення властивості до масиву
+//       propValues.push(product[propName]);
+//     }
+//   }
+
+//   return propValues;
+// }
+
+// console.log(getAllPropValues("name")); // повертає ["Radar", "Scanner", "Droid", "Grip"]
+// console.log(getAllPropValues("quantity")); // повертає [4, 3, 7, 9]
+// console.log(getAllPropValues("price")); // повертає [1300, 2700, 400, 1200]
+// console.log(getAllPropValues("category")); // повертає []
+
+// const products = [
+//   { name: "Radar", price: 1300, quantity: 4 },
+//   { name: "Scanner", price: 2700, quantity: 3 },
+//   { name: "Droid", price: 400, quantity: 7 },
+//   { name: "Grip", price: 1200, quantity: 9 },
+// ];
+
+// function calculateTotalPrice(productName) {
+//   // Change code below this line
+
+//   let total = 0;
+//   for (let product of products) {
+//     if (product.name === productName) {
+//       total = product.price * product.quantity;
+//     }
+//   }
+//   return total;
+//   // Change code above this line
+// }
+// console.log(calculateTotalPrice("Blaster")); //  повертає 0
+// console.log(calculateTotalPrice("Radar")); //  повертає 5200
+// console.log(calculateTotalPrice("Droid")); //  повертає 2800
+// console.log(calculateTotalPrice("Grip")); //  повертає 10800
+// console.log(calculateTotalPrice("Scanner")); //  повертає 8100
