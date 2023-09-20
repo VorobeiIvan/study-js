@@ -1,8 +1,8 @@
-/***** Оголошення змінних *****/
+Змінні -   https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/Variables
 
 /***** Примітивні типи даних ****/
-Number 
-String
+Number  -  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Number
+String  -  https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/String
 Типи рядків '' "" ``
 Boolean (true, false)
 undefined
