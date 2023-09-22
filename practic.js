@@ -2586,3 +2586,157 @@
 // console.log(calculateTotalPrice("Droid")); //  повертає 2800
 // console.log(calculateTotalPrice("Grip")); //  повертає 10800
 // console.log(calculateTotalPrice("Scanner")); //  повертає 8100
+// Change code below this line
+
+// Change code below this line
+// function calculateMeanTemperature({
+//   today: { low: todayLow, high: todayHigh },
+//   tomorrow: { low: tomorrowLow, high: tomorrowHigh },
+// }) {
+//   // Change code above this line
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+
+// console.log(
+//   calculateMeanTemperature({
+//     today: { low: 28, high: 32 },
+//     tomorrow: { low: 25, high: 29 },
+//   })
+// ); // повертає 28.5
+
+// console.log(
+//   calculateMeanTemperature({
+//     today: { low: 37, high: 40 },
+//     tomorrow: { low: 33, high: 38 },
+//   })
+// ); //  повертає 37
+
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   const text = "";
+//   return { completed, category, priority, ...data };
+// }
+// // Change code below this line
+// console.log(makeTask({})); // повертає { category: "General", priority: "Normal", completed: false }
+// console.log(
+//   makeTask({
+//     category: "Homemade",
+//     priority: "Low",
+//     text: "Take out the trash",
+//   })
+// ); //  повертає { category: "Homemade", priority: "Low", text: "Take out the trash", completed: false }
+// console.log(makeTask({ category: "Finance", text: "Take interest" })); //  повертає { category: "Finance", priority: "Normal", text: "Take interest", completed: false }
+// console.log(makeTask({ priority: "Low", text: "Choose shampoo" })); //  повертає { category: "General", priority: "Low", text: "Choose shampoo", completed: false }
+// console.log(makeTask({ text: "Buy bread" })); //  повертає { category: "General", priority: "Normal", text: "Buy bread", completed: false }
+// // Change code above this line
+
+// Change code below this line
+// function add(...args) {
+//   let total = 0;
+//   for (let arg of args) {
+//     total += arg;
+//   }
+//   return total;
+// }
+// console.log(add(15, 27)); //  повертає 42
+// console.log(add(12, 4, 11, 48)); //  повертає 75
+// console.log(add(32, 6, 13, 19, 8)); //  повертає 78
+// console.log(add(74, 11, 62, 46, 12, 36)); //  повертає 241
+
+// // Change code below this line
+// function addOverNum(...args) {
+//   let total = 0;
+
+//   for (let i = 0; i <= args.length; i++) {
+//     if (args[i] > args[0]) {
+//       total += args[i];
+//     }
+//   }
+//   return total;
+//   // Change code above this line
+// }
+// console.log(addOverNum(50, 15, 27)); //  повертає 0
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8)); //  повертає 71
+// console.log(addOverNum(15, 32, 6, 13, 19, 8)); //  повертає 51
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36)); //   повертає 218
+
+// // Change code below this line
+// function findMatches(...args) {
+//   const matches = []; // Don't change this line
+//   let args1 = [...args[0]];
+//   for (const argMain of args) {
+//     for (const arg of args1) {
+//       if (arg === argMain) {
+//         matches.push(arg);
+//       }
+//     }
+//   }
+//   // Change code above this line
+//   return matches;
+// }
+// console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7)); //  повертає [1, 2]
+// console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2)); //  повертає [17, 89, 2]
+// console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41)); //  повертає [24, 9, 41]
+// console.log(findMatches([63, 11, 8, 29], 4, 7, 16)); //  повертає []
+
+// const atTheOldToad = {
+//   potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//   updatePotionName(oldName, newName) {
+//     // Change code below this line
+//     const i = this.potions.indexOf(oldName);
+//     this.potions.splice(i, 1, newName);
+
+//     // Change code above this line
+//   },
+// };
+
+const atTheOldToad = {
+  potions: [
+    { name: "Speed potion", price: 460 },
+    { name: "Dragon breath", price: 780 },
+    { name: "Stone skin", price: 520 },
+  ],
+
+  getPotions() {
+    return this.potions;
+  },
+
+  addPotion(newPotion) {
+    if (this.potions.includes(newPotion)) {
+      return `Error! Potion ${newPotion.name} is already in your inventory!`;
+    }
+
+    this.potions.push(newPotion);
+  },
+
+  removePotion(potionName) {
+    for (let i = 0; i < this.potions.length; i++) {
+      if (this.potions[i].name === potionName) {
+        this.potions.splice(i, 1);
+        return;
+      }
+    }
+
+    return `Potion ${potionName} is not in inventory!`;
+  },
+
+  updatePotionName(oldName, newName) {
+    for (let i = 0; i < this.potions.length; i++) {
+      if (this.potions[i].name === oldName) {
+        this.potions[i].name = newName;
+        return;
+      }
+    }
+
+    return `Potion ${oldName} is not in inventory!`;
+  },
+};
+
+console.log(atTheOldToad.removePotion("Dragon breath"));
+console.log(atTheOldToad.removePotion("Speed potion"));
+console.log(atTheOldToad.updatePotionName("Dragon breath", "Polymorth"));
+console.log(
+  atTheOldToad.updatePotionName("Stone skin", "Invulnerability potion")
+);
