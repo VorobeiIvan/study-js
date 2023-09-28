@@ -25,6 +25,7 @@
 // }
 
 // const failuresList = makeList(result.failure);
+<<<<<<< Updated upstream
 // const pizzaPalace = {
 //   pizzas: ["Ultracheese", "Smoked", "Four meats"],
 //   order(pizzaName, onSuccess, onError) {
@@ -65,3 +66,35 @@ orderedItems.forEach(function collback(number,index){
 calculateTotalPrice([12, 85, 37, 4]) // повертає 138
 calculateTotalPrice([164, 48, 291])//повертає 503
 calculateTotalPrice([412, 371, 94, 63, 176]) //повертає 1116
+=======
+const pizzaPalace = {
+  pizzas: ["Ultracheese", "Smoked", "Four meats"],
+  order(pizzaName, onSuccess, onError) {
+    if (this.pizzas.includes(pizzaName)) {
+      console.log(onSuccess(pizzaName));
+    } else {
+      console.log(
+        onError(
+          `Error! There is no pizza with a name ${pizzaName} in the assortment.`
+        )
+      );
+    }
+  },
+};
+
+// Callback for onSuccess
+function makePizza(pizzaName) {
+  return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+}
+
+// Callback for onError
+function onOrderError(error) {
+  return error;
+}
+
+// Method calls with callbacks
+pizzaPalace.order("Smoked", makePizza, onOrderError);
+pizzaPalace.order("Four meats", makePizza, onOrderError);
+pizzaPalace.order("Big Mike", makePizza, onOrderError);
+pizzaPalace.order("Vienna", makePizza, onOrderError);
+>>>>>>> Stashed changes
