@@ -879,25 +879,240 @@
 // };
 // // Change code above this line
 // console.log(getSortedFriends(users));
-const pizzaPalace = {
-  pizzas: ["Supercheese", "Smoked", "Four meats"],
-  // Change code below this line
-  checkPizza(pizzaName) {
-    return this.pizzas.includes(pizzaName);
-  },
-  order(pizzaName) {
-    const isPizzaAvailable = this.checkPizza(pizzaName);
+// const pizzaPalace = {
+//   pizzas: ["Supercheese", "Smoked", "Four meats"],
+//   // Change code below this line
+//   checkPizza(pizzaName) {
+//     return this.pizzas.includes(pizzaName);
+//   },
+//   order(pizzaName) {
+//     const isPizzaAvailable = this.checkPizza(pizzaName);
 
-    if (!isPizzaAvailable) {
-      return `Sorry, there is no pizza named «${pizzaName}»`;
+//     if (!isPizzaAvailable) {
+//       return `Sorry, there is no pizza named «${pizzaName}»`;
+//     }
+
+//     return `Order accepted, preparing «${pizzaName}» pizza`;
+//   },
+//   // Change code above this line
+// };
+
+// console.log(pizzaPalace.order("Smoked")); //повертає рядок "Order accepted, preparing «Smoked» pizza"
+// console.log(pizzaPalace.order("Four meats")); // повертає рядок "Order accepted, preparing «Four meats» pizza"
+// console.log(pizzaPalace.order("Big Mike")); //повертає рядок "Sorry, there is no pizza named «Big Mike»"
+// console.log(pizzaPalace.order("Viennese")); // повертає рядок "Sorry, there is no pizza named «Viennese»"
+
+// function truncateString(str, num) {
+//   if (str.length > num) {
+//     const newStr = str.slice(0, num) + "...";
+//     return newStr;
+//   }
+//   return str;
+// }
+
+// console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8)); // має повертати рядок A-tisket....
+// console.log(truncateString("Peter Piper picked a peck of pickled peppers", 11)); // має повертати рядок Peter Piper....
+// console.log(
+//   truncateString(
+//     "A-tisket a-tasket A green and yellow basket",
+//     "A-tisket a-tasket A green and yellow basket".length
+//   )
+// ); // має повертати рядок A-tisket a-tasket A green and yellow basket.
+// console.log(
+//   truncateString(
+//     "A-tisket a-tasket A green and yellow basket",
+//     "A-tisket a-tasket A green and yellow basket".length + 2
+//   )
+// ); // має повертати рядок A-tisket a-tasket A green and yellow basket.
+// console.log(truncateString("A-", 1)); // має повертати рядок A....
+// console.log(truncateString("Absolutely Longer", 2)); // має повертати рядок Ab....
+// function findElement(arr, func) {
+//   for (let i of arr) {
+//     if (func(i)) {
+//       return i;
+//     }
+//   }
+//   return undefined;
+// }
+
+// console.log(findElement([1, 2, 3, 4], (num) => num % 2 === 0));
+// console.log(
+//   findElement([1, 3, 5, 8, 9, 10], function (num) {
+//     return num % 2 === 0;
+//   })
+// );
+// console.log(
+//   findElement([1, 3, 5, 9], function (num) {
+//     return num % 2 === 0;
+//   })
+// );
+// function booWho(bool) {
+//   return bool === true || bool === false ? true : false;
+// }
+
+// console.log(booWho(null));
+// console.log(booWho(true)); // має повертати true.
+// console.log(booWho(false)); // має повертати true.
+// console.log(booWho([1, 2, 3])); // має повертати false.
+// console.log(booWho([].slice)); // має повертати false.
+// console.log(booWho({ a: 1 })); // має повертати false.
+// console.log(booWho(1)); // має повертати false.
+// console.log(booWho(NaN)); // має повертати false.
+// console.log(booWho("a")); // має повертати false.
+// console.log(booWho("true")); // має повертати false.
+// console.log(booWho("false")); //має повертати false.
+// function titleCase(str) {
+//   let words = str.toLowerCase().split(" "); // Перевести всі букви в рядку в нижній регістр та розділити на слова
+//   for (let i = 0; i < words.length; i++) {
+//     if (words[i].length > 0) {
+//       words[i] = words[i][0].toUpperCase() + words[i].slice(1); // Перший символ у верхньому регістрі, решта в нижньому регістрі
+//     }
+//   }
+//   return words.join(" "); // З'єднати слова у великий рядок
+// }
+
+// console.log(titleCase("I'm a little tea pot"));
+
+// function frankenSplice(arr1, arr2, n) {
+//   console.log(...arr1);
+//   console.log(...[arr2]);
+//   console.log(n);
+//   let newArr = [...[arr2]].splice(n, 0, [...arr1]);
+//   return newArr;
+// }
+
+// console.log(frankenSplice([1, 2, 3], [4, 5, 6], 1));
+// function getIndexToIns(arr, num) {
+//   let newArr = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (num > arr[i]) {
+//       newArr.unshift(arr[i]);
+//     } else {
+//       newArr.push(num);
+//     }
+//   }
+
+//   return newArr.indexOf(num);
+// }
+
+// console.log(getIndexToIns([40, 60], 50));
+// console.log(getIndexToIns([10, 20, 30, 40, 50], 35)); // має повертати 3.
+// console.log(getIndexToIns([10, 20, 30, 40, 50], 30)); // має повертати 2.
+// console.log(getIndexToIns([40, 60], 50)); // має повертати 1.
+// console.log(getIndexToIns([3, 10, 5], 3)); // має повертати 0.
+// console.log(getIndexToIns([5, 3, 20, 3], 5)); // має повертати 2.
+// console.log(getIndexToIns([2, 20, 10], 19)); // має повертати 2.
+// console.log(getIndexToIns([2, 5, 10], 15)); // має повертати 3.
+// console.log(getIndexToIns([], 1)); // має повертати 0.
+// function mutation(arr) {
+//   const wordOne = arr[0].toLowerCase();
+//   const wordSecond = arr[1].toLowerCase();
+
+//   for (const letter of wordSecond) {
+//     if (wordOne.indexOf(letter) === -1) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+
+// function convertToRoman(num) {
+//   if (num <= 0 || num > 1000) {
+//     return "Number out of range";
+//   }
+
+//   const romanNumerals = {
+//     1: "I",
+//     2: "II",
+//     3: "III",
+//     4: "IV",
+//     5: "V",
+//     6: "VI",
+//     7: "VII",
+//     8: "VIII",
+//     9: "IX",
+//     10: "X",
+//     20: "XX",
+//     30: "XXX",
+//     40: "XL",
+//     50: "L",
+//     60: "LX",
+//     70: "LXX",
+//     80: "LXXX",
+//     90: "XC",
+//     100: "C",
+//     200: "CC",
+//     300: "CCC",
+//     400: "CD",
+//     500: "D",
+//     600: "DC",
+//     700: "DCC",
+//     800: "DCCC",
+//     900: "CM",
+//     1000: "M",
+//   };
+//   let romanNumber = romanNumerals[num];
+//   if (num in romanNumerals) {
+//     return romanNumerals[num];
+//   } else {
+//     for (let i = 11; i <= 1000; i++) {
+//       if (!romanNumerals[i]) {
+//         const ones = i % 10;
+//         const tens = (i - ones) % 100;
+//         const hundreds = (i - tens - ones) % 1000;
+//         romanNumber =
+//           romanNumerals[hundreds] + romanNumerals[tens] + romanNumerals[ones];
+//         romanNumerals[i] = romanNumber;
+//       }
+//     }
+//   }
+//   return romanNumber;
+// }
+
+// console.log(convertToRoman(36)); // "XXXVI"
+
+function rot13(str) {
+  const englishAlphabet = {
+    A: 1,
+    B: 2,
+    C: 3,
+    D: 4,
+    E: 5,
+    F: 6,
+    G: 7,
+    H: 8,
+    I: 9,
+    J: 10,
+    K: 11,
+    L: 12,
+    M: 13,
+    N: 14,
+    O: 15,
+    P: 16,
+    Q: 17,
+    R: 18,
+    S: 19,
+    T: 20,
+    U: 21,
+    V: 22,
+    W: 23,
+    X: 24,
+    Y: 25,
+    Z: 26,
+  };
+
+  
+  let keys = Object.keys(englishAlphabet);
+  keys.forEach(function (key) {
+    let value = englishAlphabet[key];
+    value += 13;
+    if (value > 26) {
+      value -= 26;
     }
+    console.log(key, value);
+  });
+  return str;
+}
 
-    return `Order accepted, preparing «${pizzaName}» pizza`;
-  },
-  // Change code above this line
-};
-
-console.log(pizzaPalace.order("Smoked")); //повертає рядок "Order accepted, preparing «Smoked» pizza"
-console.log(pizzaPalace.order("Four meats")); // повертає рядок "Order accepted, preparing «Four meats» pizza"
-console.log(pizzaPalace.order("Big Mike")); //повертає рядок "Sorry, there is no pizza named «Big Mike»"
-console.log(pizzaPalace.order("Viennese")); // повертає рядок "Sorry, there is no pizza named «Viennese»"
+console.log(rot13("SERR PBQR PNZC"));
