@@ -1,0 +1,37 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.character-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px red;
+    min-width: 250px;
+    padding: 16px 24px;
+    border-radius: 20px;
+    margin: 24px;
+    font-size: 24px;
+
+}
+
+button {
+    border-radius: 4px;
+    border: none;
+    color: aliceblue;
+    background-color: red;
+    margin: 4px;
+    padding: 2px 4px;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
